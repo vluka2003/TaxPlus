@@ -1,0 +1,96 @@
+.about{
+	text-align: center;
+}
+
+#about_content img{
+	width:100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top:1em;
+	border:.1px white solid;
+	border-radius:5px;
+
+}
+
+#about_content{
+	margin-top:2.5em;
+}
+
+.bg-primary{
+	background-color:#FFFFFF;
+	color:black;
+	padding:15px;
+}
+.bg-secondary{
+	background-color:#f7f7f7;
+	color:black;
+	padding:15px;
+}
+
+#content_bg{
+	background-image: url("../img/meeting_bg.jpg");
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:30vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#content_bg h2{
+	text-align: center;
+	color:white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#content_bg_2 h2{
+	text-align: center;
+	color:white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#content_bg_2{
+	background-image: url("../img/business.jpeg");
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:30vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.card {
+  float: left;
+  width: 33.333%;
+  padding: .75rem;
+  margin-bottom: 2rem;
+  border: 0;
+  text-align: center;
+}
+
+.card > img {
+  margin-bottom: .75rem;
+  max-width: 100%;
+  border-radius:5px;
+}
+
+.card-text {
+  font-size: 85%;
+}
+
+.address{
+	text-align: center;
+}
+footer{
+	text-align: center;
+}
+
+.get_start_butn{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top:1em;
+}

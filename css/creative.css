@@ -42,9 +42,7 @@ p {
   line-height: 1.5;
   margin-bottom: 20px;
 }
-.bg-primary {
-  background-color: #F05F40;
-}
+
 .bg-dark {
   background-color: #222222;
   color: white;
@@ -223,7 +221,7 @@ header .header-content .header-content-inner p {
 .service-box p {
   margin-bottom: 0;
 }
-.portfolio-box {
+/*.portfolio-box {
   position: relative;
   display: block;
   max-width: 650px;
@@ -268,7 +266,7 @@ header .header-content .header-content-inner p {
 }
 .portfolio-box:focus {
   outline: none;
-}
+}*/
 @media (min-width: 768px) {
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
     font-size: 16px;
