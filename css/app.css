@@ -1,14 +1,14 @@
 
 @import "//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,300italic,400italic,600italic,700italic";
-/*body {
-    background: #666 none repeat scroll 0 0;
-    color: #5c5c5c;
-    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-}*/
+body {
+    font-family: 'Francois One', sans-serif;
+    width: 100%;
+    height:100%;
+}
 #boxed {
     margin: 0 auto;
 }
-.glyphicons, .halflings, .filetype, .social {
+/*.glyphicons, .halflings, .filetype, .social {
     display: inline-block;
     font-style: normal;
     font-weight: normal;
@@ -27,7 +27,7 @@
 }
 .social {
     font-family: "Glyphicons Social Regular";
-}
+}*/
 @font-face {
     font-family: "themovation-icons";
     font-style: normal;
@@ -99,9 +99,9 @@
     float: right;
     margin: 12px 0 0;
     text-align: right;
+    font-family: 'Francois One', sans-serif;
 }
 .navbar .navbar-nav > li > a {
-    color: #fff;
     font-size: 14px;
     font-weight: 400;
     margin: 0 15px;
@@ -242,6 +242,7 @@
 }
 body.blog .page-title, body.single .page-title, body.search .page-title, body.archive .page-title, body.error404 .page-title {
     border-bottom: 1px solid #e6e6e6;
+
 }
 .page-title.centered {
     padding: 60px 15%;
@@ -423,6 +424,7 @@ body.blog .page-title, body.single .page-title, body.search .page-title, body.ar
 }
 body.page .comment-respond {
     margin-bottom: 50px;
+
 }
 .float-left {
     float: left;
@@ -559,12 +561,13 @@ embed, iframe, object, video {
 .wp-video-shortcode .mejs-controls, .wp-audio-shortcode .mejs-controls {
     background: #1d1d1d none repeat scroll 0 0 !important;
 }
+
 /*h1, h2, h3, h4, h5, h6 {
     color: #fff;
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 600;
 }*/
-h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
+/*h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
     text-decoration: none;
 }
 h1 {
@@ -595,7 +598,7 @@ p {
     color: #5c5c5c;
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: normal;
-}
+}*/
 a {
     color: #1e8190;
     transition: all 0.2s ease-in-out 0s;
@@ -696,10 +699,11 @@ a:hover {
 }*/
 form input, .frm_forms form label, .with_frm_style label.frm_primary_label, .with_frm_style.frm_login_form label, .frm_forms form input, .frm_forms form textarea, .with_frm_style input[type="text"], .with_frm_style input[type="password"], .with_frm_style input[type="email"], .with_frm_style input[type="number"], .with_frm_style input[type="url"], .with_frm_style input[type="tel"], .with_frm_style select, .frm_style_formidable-style.with_frm_style select, .with_frm_style textarea, .frm_style_formidable-style.with_frm_style textarea, #content .with_frm_style input:not([type="submit"]):not([type="button"]), #content .with_frm_style select, #content .with_frm_style textarea, .with_frm_style .chzn-container, .with_frm_style input[type="file"], .with_frm_style .frm_submit input[type="submit"], .with_frm_style .frm_submit input[type="button"], .frm_form_submit_style, .with_frm_style.frm_login_form input[type="submit"], a.frm_save_draft, .with_frm_style #frm_field_cptch_number_container, .with_frm_style .frm_radio label, .with_frm_style .frm_checkbox label, .frm_forms .frm_description, .with_frm_style p.description, .with_frm_style div.description, .with_frm_style div.frm_description, .frm_style_formidable-style.with_frm_style .frm_error {
     box-shadow: 0 0 0 !important;
-    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Francois One', sans-serif;
 }
 input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="number"], input[type="tel"], textarea {
     color: #5c5c5c !important;
+    font-family: 'Francois One', sans-serif;
 }
 .radio, .checkbox {
     padding-left: 0;
@@ -709,7 +713,7 @@ input[type="text"], input[type="email"], input[type="url"], input[type="password
 }
 .frm_forms form input[type="text"], .frm_forms form input[type="email"], .frm_forms form input[type="url"], .frm_forms form input[type="password"], .frm_forms form input[type="number"], .frm_forms form input[type="tel"], .frm_style_formidable-style.with_frm_style input[type="text"], .frm_style_formidable-style.with_frm_style input[type="password"], .frm_style_formidable-style.with_frm_style input[type="email"], .frm_style_formidable-style.with_frm_style input[type="number"], .frm_style_formidable-style.with_frm_style input[type="url"], .frm_style_formidable-style.with_frm_style input[type="tel"], .frm_style_formidable-style.with_frm_style input[type="file"], .frm_style_formidable-style.with_frm_style input[type="search"] {
     border-radius: 2px;
-    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Francois One', sans-serif;
     font-size: 13px;
     height: 46px;
     margin-bottom: 0;
@@ -727,7 +731,7 @@ input[type="text"], input[type="email"], input[type="url"], input[type="password
 }
 .frm_forms form label, .with_frm_style label.frm_primary_label, .with_frm_style.frm_login_form label, .frm_style_formidable-style.with_frm_style label.frm_primary_label, .frm_style_formidable-style.with_frm_style.frm_login_form label, .frm_style_formidable-style.with_frm_style .frm_radio label, .frm_style_formidable-style.with_frm_style .frm_checkbox label {
     color: #5d5d5d;
-    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Francois One', sans-serif;
     font-size: 14px;
     font-weight: normal;
     margin: 20px 0 6px;
@@ -760,6 +764,7 @@ form input[type="submit"]:hover, .with_frm_style .frm_submit input[type="submit"
     background: #1e8190 none repeat scroll 0 0;
     color: #fff;
     opacity: 0.9;
+    font-family: 'Francois One', sans-serif;
 }
 .frm_forms .frm_none_container label.frm_primary_label, .frm_forms .frm_pos_none {
     display: none;
@@ -829,7 +834,7 @@ form input[type="submit"]:hover, .with_frm_style .frm_submit input[type="submit"
     margin: 0;
     padding: 12px !important;
 }
-.footer input[type="text"], .footer input[type="email"], .footer input[type="url"], .footer input[type="password"], .footer input[type="number"], .footer input[type="tel"], .footer textarea, .footer select {
+/*.footer input[type="text"], .footer input[type="email"], .footer input[type="url"], .footer input[type="password"], .footer input[type="number"], .footer input[type="tel"], .footer textarea, .footer select {
     background: transparent none repeat scroll 0 0 !important;
     border: 1px solid #fff !important;
     color: #fff !important;
@@ -850,7 +855,7 @@ form input[type="submit"]:hover, .with_frm_style .frm_submit input[type="submit"
 .footer label, .footer .frm_forms .frm_description {
     color: #c6c6c6 !important;
 }
-
+*/
 .simple-conversion {
     padding-top: 10px;
     text-align: center;
@@ -1540,7 +1545,7 @@ a.slider-scroll-down {
 .sidebar #wp-calendar tbody td a:hover {
     background-color: transparent;
 }
-.footer {
+/*.footer {
     background: #292e31 none repeat scroll 0 0;
     color: #d2d2d2;
     margin-top: -1px;
@@ -1645,7 +1650,7 @@ a.slider-scroll-down {
 }
 .footer .icon-blocks p {
     font-size: 15px;
-}
+}*/
 .th-payments-widget img {
     margin: 0 8px 14px 0;
     max-width: 100%;

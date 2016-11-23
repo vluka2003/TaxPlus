@@ -10,6 +10,7 @@
         event.preventDefault();
     });
 
+
     // Highlight the top nav as scrolling occurs
     $('body').scrollspy({
         target: '.navbar-fixed-top',
@@ -27,6 +28,7 @@
             top: 100
         }
     })
+
 
     // Initialize and Configure Scroll Reveal Animation
     window.sr = ScrollReveal();
@@ -61,4 +63,6 @@
         }
     });
 
+
 })(jQuery); // End of use strict
+
